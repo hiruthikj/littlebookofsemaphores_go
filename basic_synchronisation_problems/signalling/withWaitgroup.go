@@ -25,6 +25,7 @@ func main() {
 		}
 	}()
 
+	// using sleep for simplicity
 	time.Sleep(1 * time.Second)
 	os.Stdout.Sync()
 }
