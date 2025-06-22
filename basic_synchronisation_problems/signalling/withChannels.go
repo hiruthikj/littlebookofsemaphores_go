@@ -23,7 +23,7 @@ func main() {
 		}
 	}()
 
-	// using sleep for simplicity
+	// Ideally should never use as it will mask deadlocks on incorrect code
 	time.Sleep(1 * time.Second)
 	os.Stdout.Sync()
 }
